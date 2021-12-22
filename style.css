@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+
+body {
+    background: rgba(41, 151, 182, 0.498);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #222;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 6px;
+}
+
+h1:last-of-type {
+    margin-top: 36px;
+}
+
+section>div {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+section>div>div {
+    background: white;
+    padding: 1rem;
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+
+section {
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.countdown {
+    padding: 1rem;
+}
